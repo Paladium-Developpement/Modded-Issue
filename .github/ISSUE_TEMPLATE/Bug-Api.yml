@@ -1,0 +1,34 @@
+name: Bug API
+description: Report un bug de l'API
+title: '[API]: '
+labels:
+  - bug
+  - ' triage'
+body:
+  - type: input
+    id: pseudo
+    attributes:
+      label: Pseudo InGame
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Que s'est-il passé ?
+      description: Dites-nous ce qui est arrivé
+    validations:
+      required: true
+  - type: textarea
+    id: what-should-happened
+    attributes:
+      label: 'Qu''aurait-il dû arriver ?'
+  - type: input
+    id: url
+    attributes:
+      label: 'Endpoint'
+      description: Quel est l'endpoint de l'api qui pose problème ?
+  - type: textarea
+    id: log
+    attributes:
+      label: LOG
+      description: Si vous avez des logs à nous fournir, c'est ici !
