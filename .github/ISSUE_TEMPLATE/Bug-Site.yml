@@ -1,0 +1,44 @@
+name: Bug Site
+description: Report un bug du site
+title: '[Site]: '
+labels:
+  - bug
+  - ' triage'
+body:
+  - type: input
+    id: pseudo
+    attributes:
+      label: Pseudo InGame
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Que s'est-il passé ?
+      description: Dites-nous ce qui est arrivé
+    validations:
+      required: true
+  - type: textarea
+    id: what-should-happened
+    attributes:
+      label: 'Qu''aurait-il dû arriver ?'
+  - type: input
+    id: url
+    attributes:
+      label: 'URL de la page'
+      description: Quel est l'url de la page qui pose problème ?
+  - type: input
+    id: os
+    attributes:
+      label: 'Système d''exploitation'
+      description: Quel est votre système d'exploitation ? Windows, Linux, Mac
+  - type: input
+    id: nav
+    attributes:
+      label: 'Navigateur internet'
+      description: Quel est votre navigateur Internet (Chrome, Safari, Firefox) ?
+  - type: textarea
+    id: log
+    attributes:
+      label: LOG
+      description: Si vous avez des logs à nous fournir, c'est ici !
