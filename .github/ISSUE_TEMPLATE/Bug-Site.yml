@@ -1,5 +1,5 @@
 name: Bug Site
-description: Report un bug du site
+description: Report un bug du site ou des mails
 title: '[Site]: '
 labels:
   - bug
