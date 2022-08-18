@@ -4,6 +4,7 @@ title: '[Site]: '
 labels:
   - bug
   - ' triage'
+  - site
 body:
   - type: input
     id: pseudo
