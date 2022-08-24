@@ -1,5 +1,6 @@
 name: Bug API
 description: Report un bug de l'API
+assignees: Chaika9
 title: '[API]: '
 labels:
   - bug
